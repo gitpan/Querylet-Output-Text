@@ -1,0 +1,14 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Querylet-Output-Text
+version:      0.10
+version_from: lib/Querylet/Output/Text.pm
+installdirs:  site
+requires:
+    Querylet::Output:              0.16
+    Querylet::Query:               0.16
+    Test::More:                    0
+    Text::Table:                   1
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17
