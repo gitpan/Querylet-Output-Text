@@ -10,13 +10,13 @@ Querylet::Output::Text - output querylet results to text tables
 
 =head1 VERSION
 
-version 0.10
+version 0.11
 
- $Id: Text.pm,v 1.1.1.1 2004/09/18 19:56:24 rjbs Exp $
+ $Id: Text.pm,v 1.2 2004/12/16 16:02:11 rjbs Exp $
 
 =cut
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 use Text::Table;
 
@@ -64,7 +64,7 @@ sub _as_text_table {
 	my $results = $query->results;
 	my $columns = $query->columns;
 
-	my $table = Text::Table->new(@$columns);
+	my $table = Text::Table->new(map { $query->header($_) } @$columns);
 	   $table->load(map { [ @$_{@$columns} ] }  @$results);
 	return "$table";
 }

@@ -11,7 +11,7 @@ WriteMakefile(
     PREREQ_PM => {
         'Test::More'  => 0,
         'Text::Table' => 1,
-        'Querylet::Query'  => 0.16,
+        'Querylet::Query'  => 0.28,
         'Querylet::Output' => 0.16,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
