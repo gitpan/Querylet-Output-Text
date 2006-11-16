@@ -1,8 +1,8 @@
 --- #YAML:1.0
 name:                Querylet-Output-Text
-version:             0.111
+version:             0.112
 abstract:            output querylet results to text tables
-license:             ~
+license:             perl
 generated_by:        ExtUtils::MakeMaker version 6.31
 distribution_type:   module
 requires:     

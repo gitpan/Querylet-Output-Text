@@ -10,13 +10,13 @@ Querylet::Output::Text - output querylet results to text tables
 
 =head1 VERSION
 
-version 0.111
+version 0.112
 
- $Id: /my/cs/projects/q/text/trunk/lib/Querylet/Output/Text.pm 28012 2006-11-14T22:31:48.667796Z rjbs  $
+ $Id: /my/cs/projects/q/text/trunk/lib/Querylet/Output/Text.pm 28174 2006-11-16T13:38:21.823039Z rjbs  $
 
 =cut
 
-our $VERSION = '0.111';
+our $VERSION = '0.112';
 
 use Text::Table;
 
